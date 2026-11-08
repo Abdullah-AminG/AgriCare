@@ -281,4 +281,4 @@ git remote add origin https://github.com/<YOUR-USERNAME>/AgriCare.git
 git push -u origin main
 ```
 
-Check before pushing: `git status` is clean, and `config/config.php` and uploaded photos do not appear in `git ls-files`.
+Check before pushing: `git status` is clean and `config/config.php` and uploaded photos do not appear in `git ls-files`.
