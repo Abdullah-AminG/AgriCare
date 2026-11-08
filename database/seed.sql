@@ -26,7 +26,7 @@ USE agricare;
 START TRANSACTION;
 
 INSERT INTO users (user_id, full_name, phone, email, password_hash, role) VALUES
-(1, 'Ayesha Malik (Adviser)', '03001112233', 'admin@agricare.local',
+(1, 'Abdullah Amin (Adviser)', '03001112233', 'admin@agricare.local',
     '$2b$12$eyeH3Y3D9nWeW8XjRSY5VO1JhfFDNBKf/Jlb9CMTdNgGdnXyUtqdi', 'admin'),
 (2, 'Ali Raza',    '03214445566', 'ali@example.com',
     '$2b$12$svmnaNn1ntZi6NNb7C1yFu1x5dbMAPgUdmvnajH.ldhClkLjdegx6', 'farmer'),
