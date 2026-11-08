@@ -1,0 +1,22 @@
+# Local configuration with real database credentials (never commit)
+config/config.php
+.env
+
+# Uploaded user photographs (keep only the folder protection files)
+public/uploads/reports/*
+!public/uploads/reports/.htaccess
+!public/uploads/reports/.gitkeep
+
+# Logs, editor and OS files
+*.log
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.tmp
+# Output saved from tests/smoke_test.sh (paste it into TESTING.md instead of committing it)
+smoke_results.txt
+
+
+
