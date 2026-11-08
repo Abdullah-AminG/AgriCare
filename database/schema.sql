@@ -1,4 +1,4 @@
--- =====================================================================
+-- ======================================================================
 -- AgriCare - Crop Health and Advisory System
 -- FILE: schema.sql  (database STRUCTURE only - no data)
 --
@@ -13,7 +13,7 @@
 --
 -- Note: "IF NOT EXISTS" does not ALTER a table that already exists. If the
 -- table structure changes in a future version, a separate migration is needed.
--- =====================================================================
+-- ======================================================================
 
 CREATE DATABASE IF NOT EXISTS agricare
     CHARACTER SET utf8mb4
