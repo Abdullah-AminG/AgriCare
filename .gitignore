@@ -15,6 +15,7 @@ public/uploads/reports/*
 Thumbs.db
 *.swp
 *.tmp
+
 # Output saved from tests/smoke_test.sh (paste it into TESTING.md instead of committing it)
 smoke_results.txt
 
