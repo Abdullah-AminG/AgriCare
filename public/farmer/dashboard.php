@@ -40,7 +40,7 @@ $stmt = $pdo->prepare(
 $stmt->execute(['uid' => $userId]);
 $recentReports = $stmt->fetchAll();
 
-// Latest adviser recommendations for this farmer's reports
+// Latest adviser recommendations for this farmer's report
 $stmt = $pdo->prepare(
     'SELECT a.report_id, a.advice_text, a.response_date, d.disease_name, c.crop_name
      FROM advice a
